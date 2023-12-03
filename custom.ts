@@ -9,13 +9,16 @@
  */
 //% weight=1 color=#0fbc11 icon="\uf06b" block="プレゼント"
 namespace present {
-    //% block="えんとつに入ってプレゼントをわたす"
+    //% block="えんとつに入ってプレゼントをわたすよ"
     export function putLv1(): void {
         let positions = [
-            world(1,1,1)
+            world(177, 89, 321),
+            world(177, 89, 322),
+            world(176, 89, 321),
+            world(176, 89, 322)
         ];
         let isOk = positions.some((value,index)=>{
-            return comparePosition(player.position(),value);
+            return comparePosition(agent.getPosition(),value);
         })
         if(isOk){
             player.execute("say Ok")
