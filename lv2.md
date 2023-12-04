@@ -14,7 +14,8 @@
 player.onChat("run", function () {
     present.reset()
     agent.move(FORWARD, 1)
-    present.putLv1()
+    agent.turn(LEFT_TURN)
+    present.putLv2()
 })
 ```
 

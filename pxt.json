@@ -11,7 +11,9 @@
         "main.blocks",
         "main.ts",
         "custom.ts",
-        "lv1.md"
+        "lv1.md",
+        "lv2.md",
+        "lv3.md"
     ],
     "testFiles": [
         "test.ts"

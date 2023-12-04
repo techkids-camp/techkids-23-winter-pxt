@@ -93,7 +93,7 @@ namespace present {
         debug("After Bit: " + works)
     }
     //% blockId=putLv3End
-    //% block="おしごとを終わりにする"
+    //% block="プレゼントくばりをおわりにする"
     export function putLv3End(): void {
         // 完了したタスクの数を数える
         let completedTasks = 0;
