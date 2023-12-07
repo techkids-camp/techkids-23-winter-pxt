@@ -104,7 +104,7 @@ namespace present {
                 completedTasks++;
             }
         }
-        debug("Current Bit: " + works)
+        debug("Current Bit: " + works);
         debug("Completed Tasks: " + completedTasks)
 
 
