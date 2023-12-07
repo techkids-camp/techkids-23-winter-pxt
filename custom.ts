@@ -26,9 +26,9 @@ namespace present {
         let isOk = comparePositions(positions);
         debug("Lv1: " + isOk);
         if (isOk) {
-            funcRun("say Ok")
+            funcRun("function cl_check/lv1/clear");
         } else {
-            funcRun("say NG")
+            funcRun("function cl_check/miss");
         }
     }
 
@@ -49,9 +49,9 @@ namespace present {
         let isOk = comparePositions(positions);
         debug("Lv2: " + isOk);
         if (isOk) {
-            funcRun("say Ok")
+            funcRun("function cl_check/lv2/clear");
         } else {
-            funcRun("say NG")
+            funcRun("function cl_check/miss");
         }
     }
 
