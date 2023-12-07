@@ -18,10 +18,10 @@ namespace present {
     //% block="えんとつに入ってプレゼントをわたす"
     export function putLv1(): void {
         let positions = [
-            world(177, 89, 321),
-            world(177, 89, 322),
-            world(176, 89, 321),
-            world(176, 89, 322)
+            world(176, 90, 323),
+            world(176, 90, 322),
+            world(175, 90, 323),
+            world(175, 90, 322)
         ];
         let isOk = comparePositions(positions);
         debug("Lv1: " + isOk);
@@ -36,15 +36,15 @@ namespace present {
     //% block="えんとつに入ってプレゼントをわたす"
     export function putLv2(): void {
         let positions = [
-            world(146, 97, 361),
-            world(146, 97, 360),
-            world(146, 97, 359),
-            world(147, 97, 361),
-            world(147, 97, 360),
-            world(147, 97, 359),
-            world(148, 97, 361),
-            world(148, 97, 360),
-            world(148, 97, 359),
+            world(148, 99, 361),
+            world(148, 99, 360),
+            world(148, 99, 359),
+            world(147, 99, 361),
+            world(147, 99, 360),
+            world(147, 99, 359),
+            world(146, 99, 361),
+            world(146, 99, 360),
+            world(146, 99, 359),
         ];
         let isOk = comparePositions(positions);
         debug("Lv2: " + isOk);
