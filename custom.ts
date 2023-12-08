@@ -124,6 +124,7 @@ namespace present {
     export function reset(): void {
         works = 0b000;
         agent.teleport(world(155, 70, 322), EAST)
+        loops.pause(100)
     }
     function comparePositions(positions: Position[]): boolean {
         return positions.some((value, index) => {
